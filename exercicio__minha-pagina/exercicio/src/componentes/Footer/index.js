@@ -1,6 +1,6 @@
-import { } from './Footer.css'
+import { } from './style.css'
 function Footer() {
-    return(
+    return (
         <div class="rodape">Copyright 2022. Todos os direitos reservados.</div>
     )
 }
