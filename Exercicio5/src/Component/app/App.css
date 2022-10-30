@@ -11,13 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-* {
-  box-sizing: border-box;
+
+.register {
+  margin: 10px;
+  text-align: center;
 }
 
-body {
-  background-color: #161616;
-  margin: 0;
-  color: #ffffff;
-  font-family: "Roboto", sans-serif;
+.product {
+  margin: 5px 0;
+  padding: 20px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product:hover {
+  background-color: lightgreen;
+}
+
+.selected {
+  border-color: green;
+  background-color: lightgray;
 }
